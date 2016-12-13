@@ -17,8 +17,7 @@ MEDIA_ROOT = '/opt/media'
 MEDIA_URL = '${MEDIA_URL}'
 
 STATIC_ROOT = '/opt/static'
-# STATIC_URL = '${STATIC_URL}'
-STATIC_URL = '/static/'
+STATIC_URL = '${STATIC_URL}'
 ADMIN_MEDIA_PREFIX = '${STATIC_URL}admin/'
 
 SITES["front"]["scheme"] = '${FRONT_SCHEME}'
