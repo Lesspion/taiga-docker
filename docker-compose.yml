@@ -25,7 +25,7 @@ services:
     volumes_from:
       - taigadata
     volumes:
-      - './volumes/taigaback/static:/opt/static'
+      - './volumes-taigaback/static:/opt/static'
     environment:
       - SECRET_KEY=$SECRET_KEY
 
