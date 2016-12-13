@@ -24,6 +24,8 @@ services:
       - taigadb:postgres
     volumes_from:
       - taigadata
+    volumes:
+      - './volumes/taigaback/static:/opt/static'
     environment:
       - SECRET_KEY=$SECRET_KEY
 
